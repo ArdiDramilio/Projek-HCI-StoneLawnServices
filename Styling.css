@@ -1,0 +1,239 @@
+body{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.Navbar{
+    background-color: #0c2933;
+    height: 47px;
+    display: inline-block;
+    width: 100%;
+}
+.Navbar-Logo{
+    color:white;
+    margin-top: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.Navbar-Home{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 90px;
+    top: 13px;
+}
+.Navbar-Register{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+.BtnHome{
+    background-color: #0c2933;
+    color: white;
+    border: 0px ;
+    font-size: 12px;
+}
+.BtnRegis{
+    background-color: #0c2933;
+    color: white;
+    border: 0px ;
+    font-size: 12px;
+}
+.Headpic{
+    width: 100%;
+    height: 350px; 
+}
+.Comprof{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ComprofTitle{
+    color: #5a2f2f;
+    font-size: 35px;
+}
+.ComprofParg{
+   width: 850px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.Line
+{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: inline;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+.Services{
+    text-align: center;
+}
+.ServicesTitle{
+    padding-top: 33 px;
+    color: #5a2f2f;
+    font-size: 35px;    
+}
+.ServicesPic{
+    width: 100%;
+    height: 400px;
+}
+.ServiceList{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Service-1-Title{
+    color: #5a2f2f;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.Service-1{
+    width: 35%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.Service-1-Parg{
+    text-align: center;
+    width: 450px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Service-2-Title{
+    color: #5a2f2f;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.Service-2{
+    width: 35%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.Service-2-Parg{
+    text-align: center;
+    width: 430px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-1{
+    height: 170px;
+    width: 350px;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+.img-1:hover{
+    transform: scale(1.2);
+}
+.img-2{
+    height: 170px;
+    width: 320px;
+    display: block;
+    margin-top: 5px;    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+.img-2:hover{
+    transform: scale(1.2);
+}
+.Footer{
+    background-color: #0c2933;
+    height: 47px;
+    width: 100%;
+}
+.Foot-group{
+padding-top: 5px;
+    display: block;
+    text-align: center;
+    top: 3px;
+}
+.ig-img{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+.tw-img{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+}
+.ft-txt{
+    font-size: 10px;
+    color: white;
+}
+
+
+/* ----------------- CSS REGIS -----------------*/
+
+.Footer2{
+    position: absolute;
+    background-color: #0c2933;
+    height: 47px;
+    width: 100%;
+    bottom: 0px;
+}
+.RegisterForm{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50px;
+    width:350px;
+    height:340px;
+}
+.add{
+    position: absolute;
+    margin-top: 4px;
+}
+.RegisTitle{    
+    text-align: center;
+    padding:12px;
+    font-size: 25px;
+}.btnreg{
+    text-align: center;
+    margin-top: 15px;
+}
+.btnreg-submit{
+    background-color: #0c2933;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    padding:8px;
+}.regis-group{
+    margin-left: 30px;
+}
+.field1{
+    position: relative;
+    left: 85px;
+}
+.field2{
+    position: relative;
+    left: 6px;
+}
+.field3{
+    position: relative;
+    left: 131px;
+}
+.field4{
+    display:inline-block;
+    position: relative;
+    left: 72px;
+}
+textarea{
+    resize: none;
+}
